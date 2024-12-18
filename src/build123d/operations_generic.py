@@ -210,7 +210,7 @@ def bounding_box(
 
     Args:
         objects (Shape or Iterable of): objects to create bbox for
-        mode (Mode, optional): combination mode. Defaults to Mode.ADD.
+        mode (Mode, optional): combination mode. Defaults to Mode.PRIVATE.
     """
     context: Builder = Builder._get_context("bounding_box")
 
